@@ -42,6 +42,7 @@ console.log(max);
 以這個邏輯來看的話我只要把比較兩數都變成 `bigint` 就可以正確地得到大數運算的結果了。
 
 *雖然好像還是可以算的好好的...？但是不加題目就過不了R==*
+<br>
 <img width="467" alt="螢幕快照 2021-10-07 00 18 54" src="https://user-images.githubusercontent.com/77038018/136245953-b7b9e3c3-a148-48f2-a46c-faadfa49d188.png">
 
 
