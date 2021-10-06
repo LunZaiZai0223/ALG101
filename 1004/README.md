@@ -41,7 +41,9 @@ console.log(max);
 這時就要使用 JavaScript ES11 中新出來的語法 `BigInt`，`BigInt` 會突破最大運算整數的限制，讓更大的運算能夠正常執行。（簡而言之就會在數字後面多加一個n，而且 `typeof` 出來會是 `bigint`）
 以這個邏輯來看的話我只要把比較兩數都變成 `bigint` 就可以正確地得到大數運算的結果了。
 
-雖然好像還是可以算的好好的...？但是不加題目就過不了R==
+*雖然好像還是可以算的好好的...？但是不加題目就過不了R==*
+<img width="467" alt="螢幕快照 2021-10-07 00 18 54" src="https://user-images.githubusercontent.com/77038018/136245953-b7b9e3c3-a148-48f2-a46c-faadfa49d188.png">
+
 
 ## 參考資料
 1. [67 尚硅谷 ES11 BigInt类型](https://www.youtube.com/watch?v=-t5qBDuTB0w) -> 忘記什麼是 `Bigint` 可以回來看
